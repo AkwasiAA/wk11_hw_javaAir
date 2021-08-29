@@ -28,4 +28,35 @@ public class Flight {
         this.departureTime = departureTime;
     }
 
+    public Pilot getPilot() {
+        return pilot;
+    }
+
+    public ArrayList<CabinCrewMember> getFlightCrew() {
+        return flightCrew;
+    }
+
+    public ArrayList<Passenger> getPassengers() {
+        return passengers;
+    }
+
+    public Plane getPlane() {
+        return plane;
+    }
+
+    public String getFlightNumber() {
+        return flightNumber;
+    }
+
+    public String getDestination() {
+        return destination;
+    }
+
+    public String getDepartureAirport() {
+        return departureAirport;
+    }
+
+    public String getDepartureTime() {
+        return departureTime;
+    }
 }
