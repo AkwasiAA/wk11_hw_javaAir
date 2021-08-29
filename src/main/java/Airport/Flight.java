@@ -59,4 +59,6 @@ public class Flight {
     public String getDepartureTime() {
         return this.departureTime;
     }
+
+
 }
