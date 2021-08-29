@@ -11,11 +11,11 @@ public abstract class CabinCrewMember {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public CabinCrewMemberRank getCrewMemberRank() {
-        return crewMemberRank;
+        return this.crewMemberRank;
     }
 
     public String relayMessages(String messages){

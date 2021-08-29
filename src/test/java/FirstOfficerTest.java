@@ -29,9 +29,9 @@ public class FirstOfficerTest {
         assertEquals("NY4N5HV15WT", firstOfficer.getLicenceNumber());
     }
 
-//    @Test
-//    public void canPerformPreflightChecks(){
-//
-//    }
+    @Test
+    public void canPerformPreflightChecks(){
+        assertEquals("Pre flight checks complete, ready to taxi", firstOfficer.performPreflightChecks());
+    }
 
 }

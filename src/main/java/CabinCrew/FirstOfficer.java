@@ -10,6 +10,10 @@ public class FirstOfficer extends CabinCrewMember{
     }
 
     public String getLicenceNumber() {
-        return licenceNumber;
+        return this.licenceNumber;
+    }
+
+    public String performPreflightChecks(){
+        return "Pre flight checks complete, ready to taxi";
     }
 }
