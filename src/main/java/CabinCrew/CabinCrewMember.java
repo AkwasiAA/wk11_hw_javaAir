@@ -18,4 +18,8 @@ public abstract class CabinCrewMember {
         return crewMemberRank;
     }
 
+    public String relayMessages(String messages){
+        return messages;
+    }
+
 }
